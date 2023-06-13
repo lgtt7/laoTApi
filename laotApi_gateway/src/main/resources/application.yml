@@ -1,0 +1,27 @@
+server:
+  port: 8090
+spring:
+  cloud:
+    gateway:
+      default-filters:
+        - AddResponseHeader=source,laot
+      routes:
+        - id: api_route
+          uri: http://localhost:8123
+          predicates:
+            - Path=/api/**
+
+
+
+dubbo:
+  provider:
+    timeout: 70000
+    retries: 0
+  application:
+    name: laotApi-gataway
+  registry:
+    id: nacos-registry2
+    address: nacos://localhost:8848
+
+
+

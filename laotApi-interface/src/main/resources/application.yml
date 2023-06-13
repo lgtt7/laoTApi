@@ -1,0 +1,10 @@
+server:
+  port: 8123
+  servlet:
+    context-path: /api
+
+laotapi:
+  client:
+    secret-key: asfsd
+    access-key: laot
+

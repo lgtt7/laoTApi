@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="LaoT_API_model" />
+        <module name="laotApi_gateway" />
+        <module name="laot-Api-Client-sdk" />
+        <module name="laotApi-interface" />
+        <module name="LaoT" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="LaoT" target="1.8" />
+      <module name="laot-Api-Client-sdk" target="1.8" />
+      <module name="LaoT_API_model" target="1.8" />
+      <module name="laotApi-interface" target="1.8" />
+      <module name="laotApi_gateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="LaoT" options="-parameters" />
+      <module name="laot-Api-Client-sdk" options="-parameters" />
+      <module name="laotApi-interface" options="-parameters" />
+      <module name="laotApi_gateway" options="-parameters" />
+    </option>
+  </component>
+</project>

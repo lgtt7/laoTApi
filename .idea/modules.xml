@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LaoT_API/LaoT.iml" filepath="$PROJECT_DIR$/LaoT_API/LaoT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LaoT_API_model/LaoT_API_model.iml" filepath="$PROJECT_DIR$/LaoT_API_model/LaoT_API_model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/backend.iml" filepath="$PROJECT_DIR$/.idea/backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/laot-Api-Clent-sdk/laot-Api-Client-sdk.iml" filepath="$PROJECT_DIR$/laot-Api-Clent-sdk/laot-Api-Client-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/laotApi-interface/laotApi-interface.iml" filepath="$PROJECT_DIR$/laotApi-interface/laotApi-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/laotApi_gateway/laotApi_gateway.iml" filepath="$PROJECT_DIR$/laotApi_gateway/laotApi_gateway.iml" />
+    </modules>
+  </component>
+</project>
